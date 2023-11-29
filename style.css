@@ -1,7 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-      background: transparent;
+ background-image:url(/img/background-image.svg) ;
+ background-color:rgb(249, 250, 251);
+ 
 
 }
 /* header-section-start */
@@ -12,8 +14,8 @@ body{
 
 }
 .nav{
-   
-    width: 1000px;
+   background-color: #ffffff;
+    width: 1050px;
     height: 50px;
 padding: 12px 26px;
 margin-top: 24px;
@@ -21,7 +23,8 @@ margin-top: 24px;
     align-items: center;
     justify-content: flex-start;
     gap: 50px;
-    border: 1px solid #ce1616;
+    box-shadow: 0 0 transparent, 0 0 transparent, 0 1px 3px #0000001a, 0 1px 2px -1px #0000001a;
+    border: 0 solid #e5e7eb;
     border-radius: 50px;
 }
 .nav-left{
@@ -36,7 +39,7 @@ margin-top: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 43px;
+    gap: 50px;
 }
 .nav-right ul li{
     font-size: 16px;
@@ -65,72 +68,240 @@ margin-top: 24px;
 /* header-section-end */
 
 .container{
-    width: 950px;
+    width: 1000px;
     margin: auto;
 }
 /* hero-section-start */
 .hero-section-container{
-    padding: 40px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .hero-left{
-    width: 575px;
-    height: 495px;
+    padding-right: 80px;
+    width: 616px;
+    height:557px;
+
+}
+.hero-left img{
+    margin-top: 45px;
+    width: 250px;
+    height: 53px;
 }
 .hero-left h1{
-    font-size: 48px;
-
-    font-weight: 600;
-font-family: 'system-ui','popins',sans-serif;
-max-width: 475px;
-    margin: 0;
-    line-height: 1.1em;
-    
-   
+font-family: 'Poppins', sans-serif;
+font-size: 43px;
+line-height: 72px;
+font-weight: 600;
+color:rgb(0, 0, 0) ;
+margin-top: 17px;
+margin-bottom: 0;
+max-width: 600px;
 }
-.hero-left span{
-    color:  #4f46e5;
+.hero-left h1 span{
+    color: rgb(79, 70, 229);
 }
 .hero-left h2{
+    margin-top: 10px;
     font-size: 24px;
+    line-height: 36px;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-family: 'system-ui','popins',sans-serif;
-
-  
+    color:rgb(255, 36, 145);
+    color: linear-gradient(171deg,#ff00ac,#ffe207);
 }
-.hero-left p{
-    font-size: 18px;
-    line-height: 1.5em;
-  color: #6b7280;
-    font-weight: 400px;
-font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-margin-top: 16px;  
-    
+.hero-left .hero-pera1{
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family:'Inter', sans-serif ;
+    color: #6b7280;
 }
-.hero-left .btn .first-btn {
-    width: 300px;
-    height: 45px;
+.hero-left .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+}
+.hero-left .buttons .btn1{
+    font-size: 19px;
+    font-weight: 600;
     padding: 8px;
-    font-size: 16px;
-
-}
-.hero-left .btn .first-btn img{
-    width: 17px;
-    height: 20px;
-}
-.btn .second-btn{
-  
-    font-size: 16px;
-    font-weight: 500;
+    width: 270px;
+    background:  linear-gradient(325deg,#a100ff,#ff0068);
     border: none;
-    border-bottom:2px solid #d1d5db;
-color: #6b7280;
+    box-shadow: 0px 0px 15px -2px #c0a;
+    border-radius: 10px;
+    color: #fff;
+    font-family:'Inter', sans-serif ;
+    cursor: pointer;
+}
+.hero-left .buttons .btn2{
+    background-color: rgb(249, 250, 251);
+    font-size: 14px;
+    font-family:'Inter', sans-serif;
+    font-weight: 500;
+Color:#6b7280;
 
-
-
-
+border:0;
+border-bottom: 2px solid #d1d5db;
 
 }
 
+.p-star p{
+    margin: 0;
+    font-size: 14px;
+    font-family:'Inter', sans-serif ;
+    font-weight: 400;
+}
+.p-star img{
+    width: 15px;
+    height: 15px;
+}
+.hero-right{
+  
+   
+    margin-top: 42px;
+    width: 448px;
+    height: 450px;
+    background-color: #fff;
+    border: 2px solid #ffffff0a;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px #0000003d;
+
+ 
+
+}
+.hero-right .hero-pera3{
+    color:#6b7280;
+    font-size: 13px;
+ font-family: 'Inter', sans-serif;
+ font-weight: 400;
+    max-width: 310px;
+    text-align: center;
+line-height: 20px;
+    margin-top: 19px;
+    margin-left: 40px;
+}
+.hero-right .pera4{
+text-align: center;
+
+}
+.hero-right .pera4 p{
+    font-size: 30px;
+     font-family: 'Inter', sans-serif;
+   font-weight: 600;
+   margin-top: 45px;
+  
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+
+
+
+
+
+.icons .arrow{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    border-color: #0000003f;
+    color: #0000003f;
+    cursor: not-allowed;
+    opacity: .5;
+    background-color:#4f46e5 ;
+}
+.icons .arrow img{
+    width: 19px;
+   
+    text-align: center;
+  
+
+}
+.mic{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background-image: linear-gradient(325deg,#a100ff,#ff0068);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:  0px 0px 15px -2px #c0a;
+
+}
+.mic img{
+    width: 40px;
+
+}
+.icons .cancel{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    border-color: #0000003f;
+    color: #0000003f;
+    cursor: not-allowed;
+    opacity: .5;
+    background-color:#4f46e5 ;
+}
+.icons .cancel img{
+    width: 18px;
+
+    
+  
+
+}
+.play-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+  margin: auto;
+    border-color: #0000003f;
+    color: #0000003f;
+    cursor: not-allowed;
+    opacity: .5;
+    background-color:#4f46e5 ;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play-icon img{
+    width: 18px;
+}
+
+.btn{
+    text-align: center;
+    margin:65px 0px 0px 130px;
+    background-color: #4f46e5;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 8px 24px;   
+    color: #0000003f;
+    cursor: not-allowed;
+    opacity: .5;
+
+   
+  
+}
 
 
 
